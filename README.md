@@ -16,45 +16,45 @@ This quiz is designed to challenge the new to code; and refreshen the experience
 
 The User is presented with a start page that explains the rules and waits on them to begin the quiz.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/Main-Page.png)
 
 Once they click start, the timer starts and the first question is randomly presented.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/Quiz-Start.png)
 
 If they click on the correct answer then they get five seconds added to their time. However if they get the question wrong, then they lose ten seconds from their time. The quiz is over once they run out of questions or if they run out of time. 
 
 After the quiz they have the option to add their score, submit it, and then see their score presented on the highscore board.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/Time's-Up.png)
 
 Also, if the user presses the reset button then the whole thing starts over. Alternatively if the user presses on the "Clear Highscore" button, then all of the scores are erased and no one has to know if you were Smarter Than a Coding Quiz.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/Highscore-Page.png)
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/Highscore-Page-Cleared.png)
 
 ## The Coding Magic
 
 On page load, JavaScript only shows the intended screen and hides all the others.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/c-Page-Load.png)
 
 Next, once the start button is clicked, the function for the quiz to begin is ran. Within this function, the option for shuffled questions is defined, the countdown timer is ran, and other values are reset so that when the quiz is reran then the previous information is cleared.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/c-Quiz-Start.png)
 
 Now, the count down timer is set to thirty seconds. It also checks to see if the quiz is over. Then it subtracts one away from the timer every second and when the timer hits 0 it ends the quiz.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/c-Countdown-Timer.png)
 
 The main functions work by first checking if there is another question to choose. Then it selects a random question with its corresponding answers and presents it to the user.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/c-Present-Question.png)
 
 Once the user selects an answer, the code checks to see if their selected answer matches what the correct answer is on file. If they match then five seconds is added to the timer. However if they do not match then ten seconds is deducted from the timer.
 
-![Screenshot]()
+![Screenshot](https://github.com/chancevaughn/coding-quiz/blob/main/Images/c-Answer-Check.png)
 
 Lastly, the score is caused by the amount of time that the user has left.
 
